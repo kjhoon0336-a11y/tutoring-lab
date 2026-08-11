@@ -294,6 +294,32 @@ ul {
   margin-top: 32px;
 }
 
+/* ---------- Campus photo ---------- */
+
+.campus-section {
+  padding: 64px 0;
+}
+
+.campus-frame {
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-strong);
+}
+
+.campus-frame img {
+  width: 100%;
+  display: block;
+}
+
+.campus-caption {
+  text-align: center;
+  margin-top: 18px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
 .hero-stats {
   display: flex;
   gap: 28px;
