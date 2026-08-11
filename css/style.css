@@ -711,6 +711,15 @@ section {
   gap: 8px;
 }
 
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.4);
+  transition: color 0.2s ease;
+}
+
+.footer-bottom a:hover {
+  color: var(--gold-400);
+}
+
 /* ---------- Sub-page: breadcrumb / page hero ---------- */
 
 .page-hero {
